@@ -1,0 +1,30 @@
+body {font-family: 'Montserrat', sans-serif; }
+a {cursor:pointer;}
+.center-them {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo-header {margin:0 auto; width:100px;}
+.logo-header img {width:100px; height:100px;}
+
+h1 {text-align:center; margin-bottom:0px;}
+h3 {font-size:20px; text-transform:uppercase; color:#999999; text-align:center; margin-top:0px;}
+h3 a {color:#666666;text-decoration:none;}
+h3 a:hover {color:#999;}
+
+.user-bild {margin: 0 auto; width:100px;}
+.user-bild img {width:100px; height:100px;}
+.start-formular {background-color:#f1f1f1; padding: 4%; width:30%; margin: 0 auto;}
+.style-form {margin:0 auto; width:100%}
+
+.form {border: 1px solid #e4e4e4; border-radius:10px; height:50px; width:88%; margin: 20px 0px;}
+.form-button {border: 1px solid #e4e4e4; border-radius:10px; height:40px; width:100%; text-align:center; background-color:#cc0000;color:#fff; font-weight:bold; padding:14px 0 0 ; margin-bottom:20px;}
+.form-button a {color:#FFF; text-decoration:none; padding:5px 0 0; }
+input {padding:0 20px; font-size:16px; color:#999;}
+p.passwort-vergessen {display: inline; font-size:12px;}
+p.passwort-vergessen a {color:#999;}
+.checkbox-angemeldet {margin-right:10px;}
+p.angemeldet-bleiben {display:inline; font-size:12px; color:#999;}
+footer {margin:0 auto; width:230px;}
+.logo-social {background-image: url(https://ssl.gstatic.com/accounts/ui/wlogostrip_230x17_1x.png); width:230px; height:17px;margin:40px 0 0;}
