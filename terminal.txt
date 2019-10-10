@@ -1,0 +1,14 @@
+zum Ordner 
+cd /Users/barbaragasselsberger/Desktop/SmartNinja_Kurs
+
+Zeigt Status an
+git status
+
+Ordner hinzufügen
+git add (dann den Folder oder Datei)
+
+dann Commiten mit Kommentar
+git commit -m ""
+
+und dann pushen - speichern
+git push
