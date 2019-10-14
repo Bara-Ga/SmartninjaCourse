@@ -6,6 +6,7 @@ h2.center {text-align:center; margin:30px; 0;}
 .nav-link.active {color:#fcaa00;}
 .nav-link:hover {color:#fcaa00;}
 .search-field {width:300px; height:30px;}
+.mobile-link {color:white;}
 
 .btn-outline-success {color: #fcaa00; border-color: #fcaa00;}
 .btn-outline-success:hover {color: #fff; background-color: #fcaa00; border-color: #fcaa00;}
@@ -58,3 +59,15 @@ footer img {margin:0 0 20px 0;}
 .adresse-footer {color:white; font-size:14px;}
 .adresse-footer a {color:white;}
 .button-form {margin:20px 0 0 0;}
+#mobile {display:none;}
+
+@media (max-width:1200px){
+#mobile-menu {display:none;}
+#mobile {display: inline;}
+.slide-breakpoint {margin:20px 0 0;}
+
+}
+
+@media (max-width:650px){
+#mobile-search {display:none;}
+}

@@ -29,7 +29,7 @@
                 <div class="col-">
                     <img src="img/logo.jpg" alt="Logo" width="300px" height="101px;">
                 </div>
-                <div class="col nav-right-alignment">
+                <div class="col nav-right-alignment" id="mobile-menu">
                     <nav class="nav">
                       <a class="nav-link active" href="#">Our service</a>
                       <a class="nav-link" href="#">Make an appointment</a>
@@ -38,7 +38,7 @@
                     </nav>
 
                 </div>
-                <div class="col-">
+                <div class="col-" id="mobile-search">
                     <nav class="navbar navbar-light">
                       <form class="form-inline">
                         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -47,11 +47,26 @@
                     </nav>
                 </div>
             </div>
+             <!--Mobile-->
+<div id="mobile" class="pos-f-t">
+  <div class="collapse" id="navbarToggleExternalContent">
+    <div class="bg-dark p-4">
+                      <a class="nav-link active mobile-link" href="#">Our service</a>
+                      <a class="nav-link mobile-link" href="#">Make an appointment</a>
+                      <a class="nav-link mobile-link" href="#">FAQ</a>
+                      <a class="nav-link mobile-link" href="#">About us</a>    </div>
+  </div>
+  <nav class="navbar navbar-dark bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </nav>
+</div>            <!-- Mobile ENDE-->
         </header>
  <!-- Header ENDE -->
 <!-- Slider -->
         <div class="col">
-            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div id="carouselExampleControls" class="carousel slide slide-breakpoint" data-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <img src="img/slide1.jpg" class="d-block w-100" alt="image1">
@@ -134,7 +149,7 @@
 
                 </div>
                 <!-- Table -->
-                <div class="col-6">
+                <div class="col-lg-6">
                     <table class="zeiten">
                         <tr>
                             <th class="table-header">Wochentage</th>
